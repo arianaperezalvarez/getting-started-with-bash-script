@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "Buenas tardes" $1
-echo "Good evening" $2
+read -p "What is your name?" name
+
+echo "Hi there $name"
+echo "Welcome to Gisc605"
+echo "Have a great Wednesday night!"
